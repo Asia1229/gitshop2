@@ -1,17 +1,17 @@
 /*Website Template by freewebsitetemplates.com*/
 @font-face {
-	font-family: 'Philosopher-Regular';
+	font-family: 'Monospace';
 	src: url('../fonts/Philosopher-Regular/Philosopher-Regular.eot');
 	src: url('../fonts/Philosopher-Regular/Philosopher-Regular.woff') format('woff'), url('../fonts/Philosopher-Regular/Philosopher-Regular.ttf') format('truetype'), url('../fonts/Philosopher-Regular/Philosopher-Regular.svg') format('svg');
 }
 @font-face {
-	font-family: 'Philosopher-Bold';
+	font-family: 'Monospace';
 	src: url('../fonts/Philosopher-Bold/Philosopher-Bold.eot');
 	src: url('../fonts/Philosopher-Bold/Philosopher-Bold.woff') format('woff'), url('../fonts/Philosopher-Bold/Philosopher-Bold.ttf') format('truetype'), url('../fonts/Philosopher-Bold/Philosopher-Bold.svg') format('svg');
 }
 body {
 	background: url(../images/bg-body.jpg) repeat;
-	color: green;
+	color: yellow;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1;
@@ -20,7 +20,7 @@ body {
 	padding: 0;
 }
 #background {
-	background: url(../images/bg-page.jpg) no-repeat top center;
+	background-color:red; 
 	margin: 0;
 	padding: 0;
 }
@@ -89,6 +89,7 @@ body {
 }
 #header ul li #menu1 {
 	background-position: 0 0;
+
 }
 #header ul li #menu2 {
 	background-position: -168px 0;
@@ -134,7 +135,7 @@ body {
 	color: #797979;
 }
 #body p a:hover {
-	color: #a3a3a3;
+	color: white;
 }
 #body > div {
 	background: url(../images/bg-body-footer.png) no-repeat bottom center;
